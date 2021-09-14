@@ -12,7 +12,7 @@ namespace Psim.Geometry2D
             get => _x;
             set
             {
-                _x = Double.IsNaN(value) ? throw new ArgumentException() : value; // If the value passed is not a number set X to 1
+                _x = Double.IsNaN(value) ? throw new ArgumentException() : value; // If the value passed is not a number throw an exception
             }
         }
 
@@ -21,7 +21,7 @@ namespace Psim.Geometry2D
             get => _y;
             set
             {
-                _y = Double.IsNaN(value) ? throw new ArgumentException() : value; // If the value passed is not a number set Y to 1
+                _y = Double.IsNaN(value) ? throw new ArgumentException() : value; // If the value passed is not a number throw an exception
             }
         }
 
@@ -75,7 +75,7 @@ namespace Psim.Geometry2D
             get => _dx;
             set
             {
-                _dx = Double.IsNaN(value) ? throw new ArgumentException() : value; // If the value passed is not a number set DX to 1
+                _dx = Double.IsNaN(value) ? throw new ArgumentException() : value; // If the value passed is not a number throw an exception 
             }
         }
 
@@ -84,7 +84,7 @@ namespace Psim.Geometry2D
             get => _dy;
             set
             {
-                _dy = Double.IsNaN(value) ? throw new ArgumentException() : value; // If the value passed is not a number set DY to 1
+                _dy = Double.IsNaN(value) ? throw new ArgumentException() : value; // If the value passed is not a number throw an exception
             }
         }
 
