@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Psim.Geometry2D
 {
@@ -16,7 +12,7 @@ namespace Psim.Geometry2D
             get => _x;
             set
             {
-                _x = Double.IsNaN(value) ? 1 : value; // If the value passed is not a number set X to 1
+                _x = Double.IsNaN(value) ? throw new ArgumentException() : value; // If the value passed is not a number set X to 1
             }
         }
 
@@ -25,7 +21,7 @@ namespace Psim.Geometry2D
             get => _y;
             set
             {
-                _y = Double.IsNaN(value) ? 1 : value; // If the value passed is not a number set Y to 1
+                _y = Double.IsNaN(value) ? throw new ArgumentException() : value; // If the value passed is not a number set Y to 1
             }
         }
 
@@ -41,12 +37,13 @@ namespace Psim.Geometry2D
         /// <param name="y">Y Coordinate</param>
         public Point(double? x, double? y)
         {
-            X = x ?? throw new ArgumentException();
-            Y = y ?? throw new ArgumentException();
+            X = x ?? throw new ArgumentNullException();
+            Y = y ?? throw new ArgumentNullException();
         }
 
         /// <summary>
         /// Set X and Y coordinates
+        /// Retain old value if argument passed is null
         /// </summary>
         /// <param name="x"></param>
         /// <param name="y"></param>
@@ -78,7 +75,7 @@ namespace Psim.Geometry2D
             get => _dx;
             set
             {
-                _dx = Double.IsNaN(value) ? 1 : value; // If the value passed is not a number set DX to 1
+                _dx = Double.IsNaN(value) ? throw new ArgumentException() : value; // If the value passed is not a number set DX to 1
             }
         }
 
@@ -87,7 +84,7 @@ namespace Psim.Geometry2D
             get => _dy;
             set
             {
-                _dy = Double.IsNaN(value) ? 1 : value; // If the value passed is not a number set DY to 1
+                _dy = Double.IsNaN(value) ? throw new ArgumentException() : value; // If the value passed is not a number set DY to 1
             }
         }
 
@@ -120,8 +117,8 @@ namespace Psim.Geometry2D
 
         public Rectangle(int? Length, int? Width)
         {
-            this.Length = Length ?? throw new ArgumentException();
-            this.Width = Width ?? throw new ArgumentException();
+            this.Length = Length ?? throw new ArgumentNullException();
+            this.Width = Width ?? throw new ArgumentNullException();
         }
     }
 }
