@@ -1,0 +1,17 @@
+D:\Repository\CSharp\Geometry2D\Geometry2DUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Repository\CSharp\Geometry2D\Geometry2DUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Repository\CSharp\Geometry2D\Geometry2DUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Repository\CSharp\Geometry2D\Geometry2DUnitTests\bin\Debug\Geometry2DUnitTests.dll
+D:\Repository\CSharp\Geometry2D\Geometry2DUnitTests\bin\Debug\Geometry2DUnitTests.pdb
+D:\Repository\CSharp\Geometry2D\Geometry2DUnitTests\bin\Debug\Geometry2D.exe
+D:\Repository\CSharp\Geometry2D\Geometry2DUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Repository\CSharp\Geometry2D\Geometry2DUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Repository\CSharp\Geometry2D\Geometry2DUnitTests\bin\Debug\Geometry2D.pdb
+D:\Repository\CSharp\Geometry2D\Geometry2DUnitTests\bin\Debug\Geometry2D.exe.config
+D:\Repository\CSharp\Geometry2D\Geometry2DUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Repository\CSharp\Geometry2D\Geometry2DUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Repository\CSharp\Geometry2D\Geometry2DUnitTests\obj\Debug\Geometry2DUnitTests.csproj.AssemblyReference.cache
+D:\Repository\CSharp\Geometry2D\Geometry2DUnitTests\obj\Debug\Geometry2DUnitTests.csproj.CoreCompileInputs.cache
+D:\Repository\CSharp\Geometry2D\Geometry2DUnitTests\obj\Debug\Geometry2DUnitTests.csproj.CopyComplete
+D:\Repository\CSharp\Geometry2D\Geometry2DUnitTests\obj\Debug\Geometry2DUnitTests.dll
+D:\Repository\CSharp\Geometry2D\Geometry2DUnitTests\obj\Debug\Geometry2DUnitTests.pdb

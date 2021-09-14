@@ -1,0 +1,10 @@
+D:\Repository\CSharp\Geometry2D\Geometry2D\bin\Debug\net4.7.2\Geometry2D.exe.config
+D:\Repository\CSharp\Geometry2D\Geometry2D\bin\Debug\net4.7.2\Geometry2D.exe
+D:\Repository\CSharp\Geometry2D\Geometry2D\bin\Debug\net4.7.2\Geometry2D.pdb
+D:\Repository\CSharp\Geometry2D\Geometry2D\obj\Debug\net4.7.2\Geometry2D.csproj.AssemblyReference.cache
+D:\Repository\CSharp\Geometry2D\Geometry2D\obj\Debug\net4.7.2\Geometry2D.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repository\CSharp\Geometry2D\Geometry2D\obj\Debug\net4.7.2\Geometry2D.AssemblyInfoInputs.cache
+D:\Repository\CSharp\Geometry2D\Geometry2D\obj\Debug\net4.7.2\Geometry2D.AssemblyInfo.cs
+D:\Repository\CSharp\Geometry2D\Geometry2D\obj\Debug\net4.7.2\Geometry2D.csproj.CoreCompileInputs.cache
+D:\Repository\CSharp\Geometry2D\Geometry2D\obj\Debug\net4.7.2\Geometry2D.exe
+D:\Repository\CSharp\Geometry2D\Geometry2D\obj\Debug\net4.7.2\Geometry2D.pdb
