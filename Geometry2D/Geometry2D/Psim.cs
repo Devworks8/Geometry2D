@@ -94,10 +94,10 @@ namespace Psim.Geometry2D
 
         }
 
-        public Vector(double? dx, double? dy)
+        public Vector(double? dx = 0, double? dy = 0)
         {
-            DX = dx < -1 || dx > 1 ? throw new ArgumentOutOfRangeException() : dx ?? throw new ArgumentOutOfRangeException();
-            DY = dy < -1 || dy > 1 ? throw new ArgumentOutOfRangeException() : dy ?? throw new ArgumentOutOfRangeException();
+            DX = SanityCheck(dx);
+            DY = SanityCheck(dy);
         }
 
         /// <summary>
@@ -108,21 +108,26 @@ namespace Psim.Geometry2D
         /// <exception cref="ArgumentOutOfRangeException">Throw exception if dx or yx is not in +-1 range or if it's null </exception>
         public void Set(double? dx, double? dy)
         {
-            DX = dx < -1 || dx > 1 ? throw new ArgumentOutOfRangeException() : dx ?? throw new ArgumentOutOfRangeException();
-            DY = dy < -1 || dy > 1 ? throw new ArgumentOutOfRangeException() : dy ?? throw new ArgumentOutOfRangeException();
+            DX = SanityCheck(dx);
+            DY = SanityCheck(dy);
+        }
+
+        private double SanityCheck(double? dv)
+        {
+            return dv < -1 || dv > 1 ? throw new ArgumentOutOfRangeException() : dv ?? throw new ArgumentOutOfRangeException();
         }
     }
 
     public class Rectangle
     {
-        private int _length;
-        private int _width;
+        private double _length;
+        private double _width;
 
-        public int Length { get => _length; set => _length = value; }
-        public int Width { get => _width; set => _width = value; }
-        public int Area => Length * Width;
+        public double Length { get => _length; set => _length = value; }
+        public double Width { get => _width; set => _width = value; }
+        public double Area => Length * Width;
 
-        public Rectangle(int? Length, int? Width)
+        public Rectangle(double? Length, double? Width)
         {
             this.Length = Length ?? throw new ArgumentNullException();
             this.Width = Width ?? throw new ArgumentNullException();
