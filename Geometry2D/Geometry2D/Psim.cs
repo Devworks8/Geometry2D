@@ -27,7 +27,8 @@ namespace Psim.Geometry2D
 
         public Point()
         {
-
+            X = 0;
+            Y = 0;
         }
         
         /// <summary>
@@ -99,6 +100,12 @@ namespace Psim.Geometry2D
             DY = dy < -1 || dy > 1 ? throw new ArgumentOutOfRangeException() : dy ?? throw new ArgumentOutOfRangeException();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="dx">X Vector</param>
+        /// <param name="dy">Y Vector</param>
+        /// <exception cref="ArgumentOutOfRangeException">Throw exception if dx or yx is not in +-1 range or if it's null </exception>
         public void Set(double? dx, double? dy)
         {
             DX = dx < -1 || dx > 1 ? throw new ArgumentOutOfRangeException() : dx ?? throw new ArgumentOutOfRangeException();
